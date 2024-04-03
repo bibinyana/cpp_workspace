@@ -18,7 +18,6 @@ include(../cmake/CPM.cmake)
 CPMAddPackage("gh:doctest/doctest@2.4.9")
 CPMAddPackage("gh:TheLartians/Format.cmake@1.7.3")
 
-
 # ---- Create binary ----
 
 file(GLOB sources CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp)
