@@ -18,7 +18,7 @@ TEST_CASE("remove duplicate from sorted array 1") {
   Solution sol;
   auto output = sol.removeDuplicates(input1);
   CHECK(output == o);
-  CHECK(is_first_vector_in_second(input1, expected));
+  CHECK(is_first_vector_in_second(expected, input1));
 }
 
 TEST_CASE("remove duplicate from sorted array 2") {
@@ -28,5 +28,5 @@ TEST_CASE("remove duplicate from sorted array 2") {
   Solution sol;
   auto output = sol.removeDuplicates(input1);
   CHECK(output == o);
-  CHECK(is_first_vector_in_second(input1, expected));
+  CHECK(is_first_vector_in_second(expected, input1));
 }
