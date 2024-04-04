@@ -16,7 +16,7 @@ TEST_CASE("remove duplicate from sorted array 3") {
   auto o = 5;
   std::vector<int> expected = {1, 1, 2, 2, 3};
   Solution sol;
-  auto output = sol.removeDuplicates(input1);
+  auto output = sol.removeDuplicatesUpto2Allowed(input1);
   CHECK(output == o);
   CHECK(is_duplicate(expected, input1));
 }
@@ -26,7 +26,7 @@ TEST_CASE("remove duplicate from sorted array 4") {
   auto o = 7;
   std::vector<int> expected = {0, 0, 1, 1, 2, 3, 3};
   Solution sol;
-  auto output = sol.removeDuplicates(input1);
+  auto output = sol.removeDuplicatesUpto2Allowed(input1);
   CHECK(output == o);
   CHECK(is_duplicate(expected, input1));
 }
