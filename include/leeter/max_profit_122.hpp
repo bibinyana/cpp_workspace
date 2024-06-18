@@ -1,15 +1,15 @@
-#include <algorithm>
 #include <vector>
-
 using std::vector;
 
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) {
-        int max_profit = 0;
-        for (int i = 1; i < prices.size(); i++) {
-            max_profit += std::max(prices[i] - prices[i - 1], 0);
+    int maxProfit122(vector<int>& prices) {
+        int maxProfit = 0;
+        for (size_t i = 1; i < prices.size(); ++i) {
+            if (prices[i] > prices[i - 1]) {
+                maxProfit += prices[i] - prices[i - 1];
+            }
         }
-        return max_profit;
+        return maxProfit;
     }
 };
