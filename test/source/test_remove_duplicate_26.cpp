@@ -22,9 +22,9 @@ TEST_CASE("remove duplicate from sorted array upto 2 elems 1") {
 }
 
 TEST_CASE("remove duplicate from sorted array upto 2 elems 2") {
-  std::vector<int> input1 = {0,0,1,1,1,2,2,3,3,4};
+  std::vector<int> input1 = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
   auto o = 5;
-  std::vector<int> expected = {0,1,2,3,4};
+  std::vector<int> expected = {0, 1, 2, 3, 4};
   Solution sol;
   auto output = sol.removeDuplicates(input1);
   CHECK(output == o);
