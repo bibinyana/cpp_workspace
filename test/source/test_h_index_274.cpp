@@ -1,5 +1,5 @@
 #include <doctest/doctest.h>
-#include "leeter/h_index.hpp"
+#include "leeter/h_index_274.hpp"
 
 
 TEST_CASE("h index: test case 1") {
