@@ -1,6 +1,6 @@
 #include <doctest/doctest.h>
-#include "leeter/h_index_274.hpp"
 
+#include "leeter/h_index_274.hpp"
 
 TEST_CASE("h index: test case 1") {
   vector<int> input = {3, 0, 6, 1, 5};
