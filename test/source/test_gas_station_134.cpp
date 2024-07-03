@@ -1,4 +1,5 @@
 #include <doctest/doctest.h>
+
 #include "leeter/gas_station_134.hpp"
 
 TEST_CASE("canCompleteCircuit: test case 1") {

@@ -2,7 +2,7 @@
 #include <numeric>
 #include <vector>
 using std::vector;
-
+// O(n) time complexity, O(n) space complexity.
 namespace candy {
   class Solution {
   public:
