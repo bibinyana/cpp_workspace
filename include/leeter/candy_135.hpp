@@ -24,6 +24,7 @@ namespace candy {
           candies[i] = std::max(candies[i], candies[i + 1] + 1);
         }
       }
+      // return sum of candies.
       return std::accumulate(candies.begin(), candies.end(), 0);
     }
   };
