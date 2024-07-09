@@ -20,7 +20,7 @@ namespace trapped_water {
             left_max = height[left];
           } else {
             trapped_water += left_max - height[left];
-          } 
+          }
           left++;
         } else {
           if (height[right] >= right_max) {
