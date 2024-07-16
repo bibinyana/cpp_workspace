@@ -1,4 +1,5 @@
 #include <doctest/doctest.h>
+
 #include "leeter/length_of_last_word_58.hpp"
 
 TEST_CASE("lengthOfLastWord: test case 1") {
