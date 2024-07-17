@@ -1,6 +1,6 @@
 #include <doctest/doctest.h>
-#include "leeter/longest_common_prefix_14.hpp"
 
+#include "leeter/longest_common_prefix_14.hpp"
 
 TEST_CASE("longestCommonPrefix: empty input") {
   vector<string> input = {};
